@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCaseRepository.LE_01">
+      <class name="testCaseRepository.ORG_01">
         <methods>
           <include name="closeBrowser"/>
           <include name="closeConnection"/>
+          <include name="org_01Tc"/>
           <include name="logoutApp"/>
           <include name="launchBrowser"/>
           <include name="loginApp"/>
-          <include name="le_01tc"/>
           <include name="createConnection"/>
         </methods>
-      </class> <!-- testCaseRepository.LE_01 -->
+      </class> <!-- testCaseRepository.ORG_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
