@@ -6,8 +6,7 @@ public class Chiguru {
       
 		
 		System.out.println("welcome"); 
-		System.out.println("chiguru");
-		System.out.println("chiguru");
+		
 	}
 
 }
